@@ -6,7 +6,15 @@ import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import com.howard.www.core.data.transfer.dto.IDataTransferObject;
-
+/**
+ * 
+ * @ClassName:  CampusTemplateController   
+ * @Description:TODO(这里用一句话描述这个类的作用)   
+ * @author: mayijie
+ * @date:   2017年5月21日 上午4:05:24   
+ *     
+ * @Copyright: 2017 https://github.com/majieHoward Inc. All rights reserved.
+ */
 @Controller
 public class CampusTemplateController {
 	protected final Logger log = LoggerFactory.getLogger(CampusTemplateController.class);
