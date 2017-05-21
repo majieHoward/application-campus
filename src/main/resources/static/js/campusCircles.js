@@ -37,7 +37,7 @@ var createFragment = function(count) {
         li.className = 'mui-card';
         li.innerHTML =''
         +'<div class="mui-card-header mui-card-media">'
-        +'<img src="images/logo.png" />'
+        +'<img src="http://wx.qlogo.cn/mmopen/RKeLNKp2313cLN64s6wykw53icHyZE0rnp3oJewticgVMCKGwlhvelYXHY2kibfAOmyj7aBMEKxnuiaX0NOK7TKibicWFFcKohPrfQ/0" />'
         +'<div class="mui-media-body">'
         +'overcast'
         +'<span class="mui-icons-self icon-self-weizhi">成都市</span>'

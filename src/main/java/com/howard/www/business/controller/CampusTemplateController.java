@@ -20,41 +20,42 @@ public class CampusTemplateController {
 	protected final Logger log = LoggerFactory.getLogger(CampusTemplateController.class);
 
 	@RequestMapping("/campusCircles.html")
-	public String campusCircles(Map<String, Object> map, IDataTransferObject paramOfDto) {
+	public String campusCircles(Map<String, Object> map, IDataTransferObject requiredParameter) {
 
 		return "/campusCircles";
 	}
 
 	@RequestMapping("/detailPage.html")
-	public String detailPage(Map<String, Object> map, IDataTransferObject paramOfDto) {
+	public String detailPage(Map<String, Object> map, IDataTransferObject requiredParameter) {
 		return "/detailPage";
 	}
 	
 	@RequestMapping("/campusNotes.html")
-	public String campusNotes(Map<String, Object> map, IDataTransferObject paramOfDto) {
+	public String campusNotes(Map<String, Object> map, IDataTransferObject requiredParameter) {
+		
 		return "/campusNotes";
 	}
 
 	@RequestMapping("/flashShot.html")
-	public String flashShot(Map<String, Object> map, IDataTransferObject paramOfDto) {
+	public String flashShot(Map<String, Object> map, IDataTransferObject requiredParameter) {
 
 		return "/flashShot";
 	}
 
 	@RequestMapping("/photoControl.html")
-	public String photoControl(Map<String, Object> map, IDataTransferObject paramOfDto) {
+	public String photoControl(Map<String, Object> map, IDataTransferObject requiredParameter) {
 
 		return "/photoControl";
 	}
 
 	@RequestMapping("/tab-webview-subpage-about.html")
-	public String about(Map<String, Object> map, IDataTransferObject paramOfDto) {
+	public String about(Map<String, Object> map, IDataTransferObject requiredParameter) {
 
 		return "/tab-webview-subpage-about";
 	}
 
 	@RequestMapping("/tab-webview-subpage-setting.html")
-	public String setting(Map<String, Object> map, IDataTransferObject paramOfDto) {
+	public String setting(Map<String, Object> map, IDataTransferObject requiredParameter) {
 
 		return "/tab-webview-subpage-setting";
 	}
