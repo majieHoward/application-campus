@@ -20,7 +20,7 @@ public class ZookeeperThritfServerApplication  implements EmbeddedServletContain
      */
 	@Override
 	public void customize(ConfigurableEmbeddedServletContainer container) {
-		container.setPort(8080);
+		container.setPort(9999);
 		
 	}
 }
